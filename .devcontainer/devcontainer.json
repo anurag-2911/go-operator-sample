@@ -1,0 +1,12 @@
+{
+    "name": "Go",
+    "image": "mcr.microsoft.com/vscode/devcontainers/go:1.16",
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "golang.Go"
+    ],
+    "forwardPorts": [8080],
+    "postCreateCommand": "echo 'Ready to go!'"
+}
