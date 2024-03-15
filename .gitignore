@@ -22,3 +22,4 @@ vendor/
 *.swp
 # Operating System Files
 .DS_Store
+kubeops
