@@ -1,0 +1,12 @@
+apiVersion: autoscaling.example.com/v1
+kind: TimeScaler
+metadata:
+  labels:
+    app.kubernetes.io/name: timescaler
+    app.kubernetes.io/instance: timescaler-sample
+    app.kubernetes.io/part-of: go-operator-sample
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: go-operator-sample
+  name: timescaler-sample
+spec:
+  # TODO(user): Add fields here
