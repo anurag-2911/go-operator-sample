@@ -39,7 +39,7 @@ b. api/v1/timescaler_types.go
 c. main.go
 d. Makefile
 
-# Deploying this controller and CRD (Custom Resource Definition) to a Kubernetes cluster involves several steps,
+# Deploying this controller and CRD (Custom Resource Definition) to a Kubernetes cluster involves several steps:
 including building the operator's image, pushing it to a container registry, and applying the necessary Kubernetes manifests
 
 Deploying your controller and CRD (Custom Resource Definition) to a Linode Kubernetes cluster involves several steps, including building your operator's image, pushing it to a container registry, and applying the necessary Kubernetes manifests. Here's a step-by-step guide:
