@@ -10,8 +10,10 @@ which has Ubuntu OS setup:
 The steps are from the official documentation:
 https://sdk.operatorframework.io/docs/building-operators/golang/quickstart/
 
-# Check the OS architecture and Name, for example, for x86_64 architecture for an Ubuntu OS.
+Check the OS architecture and Name, for example, for x86_64 architecture for an Ubuntu OS.
 for version v1.26.1 of operator SDK:
+
+# Go to the path where the Go project for building the operator will be used. Then run the below steps:
 
 curl -LO https://github.com/operator-framework/operator-sdk/releases/download/v1.26.1/operator-sdk_linux_amd64
 
